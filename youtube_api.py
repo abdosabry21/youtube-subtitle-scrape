@@ -12,7 +12,7 @@ from give_me_sub import extract_sub
 
 # Set DEVELOPER_KEY to the API key value from the APIs & Services > Credentials
 # tab of your project in the Google Developers Console.
-DEVELOPER_KEY = 'AIzaSyAqCiw7KUThYOgxrvLAO0nmZ3P7R-YtV7w'
+DEVELOPER_KEY = 'enter your api key here'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
