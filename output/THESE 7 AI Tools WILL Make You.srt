@@ -1,0 +1,1348 @@
+1
+00:00:00,000 --> 00:00:05,759
+listen to me very closely because you
+
+2
+00:00:02,220 --> 00:00:08,099
+have two choices when it comes to AI you
+
+3
+00:00:05,759 --> 00:00:11,219
+can either adopt it or you can get left
+
+4
+00:00:08,099 --> 00:00:13,440
+behind but here's the problem with all
+
+5
+00:00:11,219 --> 00:00:16,020
+the news coming out about AI seemingly
+
+6
+00:00:13,440 --> 00:00:17,699
+every new AI will be the next big thing
+
+7
+00:00:16,020 --> 00:00:21,720
+that will take everyone to the next
+
+8
+00:00:17,699 --> 00:00:23,939
+level but that's simply not true here's
+
+9
+00:00:21,720 --> 00:00:26,279
+the reality of the situation most of the
+
+10
+00:00:23,939 --> 00:00:28,199
+AI tools that everyone swears by will
+
+11
+00:00:26,279 --> 00:00:31,019
+not help you in any meaningful way I
+
+12
+00:00:28,199 --> 00:00:33,600
+mean sure they're cool they're nice to
+
+13
+00:00:31,019 --> 00:00:35,520
+have but besides that they're not really
+
+14
+00:00:33,600 --> 00:00:37,920
+gonna help you now
+
+15
+00:00:35,520 --> 00:00:40,140
+here's what I mean an AI tool should
+
+16
+00:00:37,920 --> 00:00:42,480
+either make you more money or it should
+
+17
+00:00:40,140 --> 00:00:45,059
+save you more time AI tools should make
+
+18
+00:00:42,480 --> 00:00:47,160
+your workflow seamless not add
+
+19
+00:00:45,059 --> 00:00:49,860
+complexity to them so in today's video
+
+20
+00:00:47,160 --> 00:00:52,500
+I'm going to give you the seven AI Tools
+
+21
+00:00:49,860 --> 00:00:54,000
+in order to do that now the first AI
+
+22
+00:00:52,500 --> 00:00:56,340
+tools that have the potential to make
+
+23
+00:00:54,000 --> 00:01:00,660
+you lots of money and save you lots of
+
+24
+00:00:56,340 --> 00:01:02,340
+time are 10 web.io and durable.co now
+
+25
+00:01:00,660 --> 00:01:04,979
+back in the day creating a website
+
+26
+00:01:02,340 --> 00:01:06,720
+required a lot of skills and training I
+
+27
+00:01:04,979 --> 00:01:08,700
+mean you need to be proficient in
+
+28
+00:01:06,720 --> 00:01:10,439
+several coding languages and you also
+
+29
+00:01:08,700 --> 00:01:12,479
+had to design everything and then you
+
+30
+00:01:10,439 --> 00:01:15,240
+needed to write each piece of code
+
+31
+00:01:12,479 --> 00:01:17,159
+manually and only then would you be able
+
+32
+00:01:15,240 --> 00:01:18,900
+to actually fill in a page with your
+
+33
+00:01:17,159 --> 00:01:20,340
+copy I mean this entire process could
+
+34
+00:01:18,900 --> 00:01:22,560
+take weeks sometimes even months
+
+35
+00:01:20,340 --> 00:01:25,020
+depending on the complexity of the
+
+36
+00:01:22,560 --> 00:01:27,360
+website it was a long arduous and most
+
+37
+00:01:25,020 --> 00:01:29,759
+importantly expensive process and in the
+
+38
+00:01:27,360 --> 00:01:31,439
+late 90s even the most basic website
+
+39
+00:01:29,759 --> 00:01:34,080
+could cost upwards of twenty thousand
+
+40
+00:01:31,439 --> 00:01:36,840
+dollars then came tools like WordPress
+
+41
+00:01:34,080 --> 00:01:40,079
+and later Wix and Shop Shopify and these
+
+42
+00:01:36,840 --> 00:01:42,299
+tools drastically brought costs down and
+
+43
+00:01:40,079 --> 00:01:45,060
+all of a sudden most people could build
+
+44
+00:01:42,299 --> 00:01:47,520
+at least a very basic website but even
+
+45
+00:01:45,060 --> 00:01:50,520
+since these came out in the 2000s one
+
+46
+00:01:47,520 --> 00:01:52,140
+problem has still remained time no
+
+47
+00:01:50,520 --> 00:01:55,140
+matter how you put it building a good
+
+48
+00:01:52,140 --> 00:01:57,479
+website however simple will still take a
+
+49
+00:01:55,140 --> 00:01:58,979
+long time I mean sure nowadays you don't
+
+50
+00:01:57,479 --> 00:02:00,780
+have to code everything yourself you can
+
+51
+00:01:58,979 --> 00:02:03,060
+kind of just put in whatever you want
+
+52
+00:02:00,780 --> 00:02:04,860
+into a website builder but even then it
+
+53
+00:02:03,060 --> 00:02:06,840
+still takes time it takes time to get
+
+54
+00:02:04,860 --> 00:02:09,179
+the design right it takes time to write
+
+55
+00:02:06,840 --> 00:02:10,920
+the copy it even takes time to learn how
+
+56
+00:02:09,179 --> 00:02:13,680
+to use the website Builders themselves
+
+57
+00:02:10,920 --> 00:02:15,959
+so much so that agencies and contractors
+
+58
+00:02:13,680 --> 00:02:17,819
+will offer to do it for you and let's be
+
+59
+00:02:15,959 --> 00:02:19,920
+honest lots of the custom websites are
+
+60
+00:02:17,819 --> 00:02:22,500
+actually just slightly improved versions
+
+61
+00:02:19,920 --> 00:02:24,420
+of basic Wix templates so that's really
+
+62
+00:02:22,500 --> 00:02:26,520
+all to say that building websites isn't
+
+63
+00:02:24,420 --> 00:02:28,560
+easy and it isn't quick and that's
+
+64
+00:02:26,520 --> 00:02:31,739
+really where AI comes into the picture
+
+65
+00:02:28,560 --> 00:02:33,840
+with tools like 10 web.io and durable
+
+66
+00:02:31,739 --> 00:02:36,540
+you can use AI to build your entire
+
+67
+00:02:33,840 --> 00:02:39,480
+website for you and I will design it
+
+68
+00:02:36,540 --> 00:02:41,519
+build it write copy and even source and
+
+69
+00:02:39,480 --> 00:02:43,019
+insert the imagery and in a matter of
+
+70
+00:02:41,519 --> 00:02:45,420
+minutes you can go from having no
+
+71
+00:02:43,019 --> 00:02:47,940
+website to having a fully functioning
+
+72
+00:02:45,420 --> 00:02:50,519
+and aesthetically pleasing website all
+
+73
+00:02:47,940 --> 00:02:53,879
+you need to do is give AI some basic
+
+74
+00:02:50,519 --> 00:02:56,819
+information and that's it a few minutes
+
+75
+00:02:53,879 --> 00:02:58,379
+answering prompts if that and you'll
+
+76
+00:02:56,819 --> 00:03:00,840
+also be able to take advantage of
+
+77
+00:02:58,379 --> 00:03:03,660
+features like built-in SEO and AI
+
+78
+00:03:00,840 --> 00:03:06,120
+Recreation AI Recreation allows you to
+
+79
+00:03:03,660 --> 00:03:08,580
+feed the AI websites you like and it can
+
+80
+00:03:06,120 --> 00:03:10,200
+recreate similar websites for you now of
+
+81
+00:03:08,580 --> 00:03:11,879
+course once made you can edit whatever
+
+82
+00:03:10,200 --> 00:03:14,280
+you want and even have the tool
+
+83
+00:03:11,879 --> 00:03:16,440
+regenerate the site until it's to your
+
+84
+00:03:14,280 --> 00:03:18,420
+Perfection and your liking so you can
+
+85
+00:03:16,440 --> 00:03:20,099
+either use these AI Tools in your own
+
+86
+00:03:18,420 --> 00:03:22,560
+business or you can even start
+
+87
+00:03:20,099 --> 00:03:24,360
+businesses around them you see tons of
+
+88
+00:03:22,560 --> 00:03:26,519
+people are paying Freelancers a few
+
+89
+00:03:24,360 --> 00:03:28,620
+hundred dollars to make really basic
+
+90
+00:03:26,519 --> 00:03:30,780
+websites and with these tools you can
+
+91
+00:03:28,620 --> 00:03:33,360
+blow those Freelancers out of the water
+
+92
+00:03:30,780 --> 00:03:36,060
+in a matter of minutes and even command
+
+93
+00:03:33,360 --> 00:03:37,980
+higher prices while doing so these are
+
+94
+00:03:36,060 --> 00:03:40,680
+perfect examples of how AI tools can
+
+95
+00:03:37,980 --> 00:03:42,599
+both save time and make you money now
+
+96
+00:03:40,680 --> 00:03:44,879
+over the years our attention span has
+
+97
+00:03:42,599 --> 00:03:47,400
+gone in shorter and shorter and creators
+
+98
+00:03:44,879 --> 00:03:49,019
+have to grab attention faster and faster
+
+99
+00:03:47,400 --> 00:03:51,540
+and that eventually led to our current
+
+100
+00:03:49,019 --> 00:03:53,459
+reality where short form content is King
+
+101
+00:03:51,540 --> 00:03:55,620
+now there's multiple ways to go about
+
+102
+00:03:53,459 --> 00:03:57,720
+short form and I would know because over
+
+103
+00:03:55,620 --> 00:04:00,599
+the last year I've had 20 full-time
+
+104
+00:03:57,720 --> 00:04:03,120
+editors full full-time strictly doing
+
+105
+00:04:00,599 --> 00:04:04,980
+short form content for me now obviously
+
+106
+00:04:03,120 --> 00:04:06,420
+that's super expensive we have a full
+
+107
+00:04:04,980 --> 00:04:09,360
+department for it we have a department
+
+108
+00:04:06,420 --> 00:04:11,099
+lead and it's simply not an option for
+
+109
+00:04:09,360 --> 00:04:13,920
+most people and that's where a tool is
+
+110
+00:04:11,099 --> 00:04:16,139
+like Opus clip become extremely useful
+
+111
+00:04:13,920 --> 00:04:18,840
+you see Opus clip is able to take any
+
+112
+00:04:16,139 --> 00:04:20,940
+long-form video and with one click turn
+
+113
+00:04:18,840 --> 00:04:23,100
+your long form content into short form
+
+114
+00:04:20,940 --> 00:04:25,620
+content now the best part about this
+
+115
+00:04:23,100 --> 00:04:27,780
+tool is that the AI is able to find the
+
+116
+00:04:25,620 --> 00:04:30,180
+best hooks in the video and piece them
+
+117
+00:04:27,780 --> 00:04:31,979
+together with the relevant highlights to
+
+118
+00:04:30,180 --> 00:04:33,960
+pretty much cut out all of the boring
+
+119
+00:04:31,979 --> 00:04:36,780
+stuff and that means that your chances
+
+120
+00:04:33,960 --> 00:04:39,120
+of virality are much much higher and the
+
+121
+00:04:36,780 --> 00:04:41,880
+AI copilot also allows you to clip parts
+
+122
+00:04:39,120 --> 00:04:44,160
+of a video based on keywords now this is
+
+123
+00:04:41,880 --> 00:04:45,720
+easily one of the highest Roi tools on
+
+124
+00:04:44,160 --> 00:04:48,120
+this list especially considering how
+
+125
+00:04:45,720 --> 00:04:50,520
+prevalent short form content is and you
+
+126
+00:04:48,120 --> 00:04:53,100
+know as well as I the short form is not
+
+127
+00:04:50,520 --> 00:04:54,900
+going anywhere tools like Opus clip can
+
+128
+00:04:53,100 --> 00:04:57,240
+not only save you time in editing and
+
+129
+00:04:54,900 --> 00:04:59,340
+money in hiring but you can also build a
+
+130
+00:04:57,240 --> 00:05:01,259
+business around it of course by now the
+
+131
+00:04:59,340 --> 00:05:03,000
+industry is no stranger to short form
+
+132
+00:05:01,259 --> 00:05:04,680
+agencies but just because there are
+
+133
+00:05:03,000 --> 00:05:06,600
+plenty of them doesn't mean that they no
+
+134
+00:05:04,680 --> 00:05:09,120
+longer work that means that tools like
+
+135
+00:05:06,600 --> 00:05:11,100
+Opus can actually make you tons and tons
+
+136
+00:05:09,120 --> 00:05:13,560
+of money and attract millions and
+
+137
+00:05:11,100 --> 00:05:15,780
+millions of eyeballs now the next AI
+
+138
+00:05:13,560 --> 00:05:18,840
+tool helps you save time and actually
+
+139
+00:05:15,780 --> 00:05:21,479
+simplifies your workflow using chat gbt
+
+140
+00:05:18,840 --> 00:05:24,300
+writer now chat GPT writer is so simple
+
+141
+00:05:21,479 --> 00:05:26,639
+yet such a no-brainer and here's why
+
+142
+00:05:24,300 --> 00:05:28,680
+you'll remember that when chat gbt first
+
+143
+00:05:26,639 --> 00:05:31,259
+became the Talk of the Town one of the
+
+144
+00:05:28,680 --> 00:05:33,660
+Prime use cases for AI was to do simple
+
+145
+00:05:31,259 --> 00:05:35,160
+writing tasks but there's one slight
+
+146
+00:05:33,660 --> 00:05:37,860
+problem by the time that you get an
+
+147
+00:05:35,160 --> 00:05:39,840
+email open chat gbt copy and paste the
+
+148
+00:05:37,860 --> 00:05:41,520
+email write the prompt to read and reply
+
+149
+00:05:39,840 --> 00:05:43,860
+to email you know once you set up all
+
+150
+00:05:41,520 --> 00:05:45,479
+the Fundamentals by that time frame it
+
+151
+00:05:43,860 --> 00:05:48,060
+probably would have been quicker to just
+
+152
+00:05:45,479 --> 00:05:50,639
+reply email yourself and that's where
+
+153
+00:05:48,060 --> 00:05:52,979
+chat gbt writer comes in it's a simple
+
+154
+00:05:50,639 --> 00:05:54,960
+chat GPT based Chrome extension that
+
+155
+00:05:52,979 --> 00:05:57,360
+alleviates all of that friction with
+
+156
+00:05:54,960 --> 00:05:59,639
+using AI to reply to emails it's
+
+157
+00:05:57,360 --> 00:06:01,380
+incredibly simple yet very effective in
+
+158
+00:05:59,639 --> 00:06:03,479
+saving time in a long
+
+159
+00:06:01,380 --> 00:06:06,240
+now next I want to talk about tidio now
+
+160
+00:06:03,479 --> 00:06:08,699
+tidio's ai lero has the power to either
+
+161
+00:06:06,240 --> 00:06:11,280
+assist or entirely replace your support
+
+162
+00:06:08,699 --> 00:06:13,259
+team and doing all that whilst boosting
+
+163
+00:06:11,280 --> 00:06:14,759
+sales on your website and obviously this
+
+164
+00:06:13,259 --> 00:06:17,280
+means that you either save money by
+
+165
+00:06:14,759 --> 00:06:19,380
+hiring less staff or make more money by
+
+166
+00:06:17,280 --> 00:06:21,900
+providing a better customer experience
+
+167
+00:06:19,380 --> 00:06:24,600
+and both of those lead to the same
+
+168
+00:06:21,900 --> 00:06:28,080
+outcome which is more net income in your
+
+169
+00:06:24,600 --> 00:06:30,419
+pocket now tidio ai is essentially an AI
+
+170
+00:06:28,080 --> 00:06:33,300
+powered chat bot that can do two things
+
+171
+00:06:30,419 --> 00:06:35,580
+it either replaces lengthy frequently
+
+172
+00:06:33,300 --> 00:06:37,740
+asked questions and answers customers
+
+173
+00:06:35,580 --> 00:06:39,600
+questions in a matter of seconds so that
+
+174
+00:06:37,740 --> 00:06:41,460
+means that you can easily increase your
+
+175
+00:06:39,600 --> 00:06:44,039
+site's conversion rates by making the
+
+176
+00:06:41,460 --> 00:06:45,720
+customer Journey so much more seamless
+
+177
+00:06:44,039 --> 00:06:47,460
+because listen instead of clogging the
+
+178
+00:06:45,720 --> 00:06:49,020
+website with tons of frequently asked
+
+179
+00:06:47,460 --> 00:06:51,180
+questions and still having loads of
+
+180
+00:06:49,020 --> 00:06:53,400
+questions unanswered you can now feed
+
+181
+00:06:51,180 --> 00:06:55,560
+all of that information into AI which
+
+182
+00:06:53,400 --> 00:06:58,139
+can then answer all of your customers
+
+183
+00:06:55,560 --> 00:07:00,539
+queries the AI can also answer more
+
+184
+00:06:58,139 --> 00:07:03,419
+advanced queries like order fulfillment
+
+185
+00:07:00,539 --> 00:07:05,639
+or restocks by tapping into the database
+
+186
+00:07:03,419 --> 00:07:08,039
+now the second thing the AI allows is
+
+187
+00:07:05,639 --> 00:07:09,780
+for human customer support team to work
+
+188
+00:07:08,039 --> 00:07:12,000
+faster and better you see here's the
+
+189
+00:07:09,780 --> 00:07:13,740
+thing tidio is a text-based AI which
+
+190
+00:07:12,000 --> 00:07:16,020
+means it can take your support agents
+
+191
+00:07:13,740 --> 00:07:19,020
+quick and rough replies and turn them
+
+192
+00:07:16,020 --> 00:07:21,300
+into full sentences that are on par with
+
+193
+00:07:19,020 --> 00:07:23,039
+your company's branding but if your
+
+194
+00:07:21,300 --> 00:07:24,720
+customer asks a question that's beyond
+
+195
+00:07:23,039 --> 00:07:27,479
+the scope of the ai's knowledge base
+
+196
+00:07:24,720 --> 00:07:30,060
+then it will automatically refer them to
+
+197
+00:07:27,479 --> 00:07:32,819
+a human agent now here's the interesting
+
+198
+00:07:30,060 --> 00:07:35,039
+part lero can answer 70 of your
+
+199
+00:07:32,819 --> 00:07:37,380
+customers questions that means that your
+
+200
+00:07:35,039 --> 00:07:40,740
+support system can service more people
+
+201
+00:07:37,380 --> 00:07:43,860
+in less time and as I said the result is
+
+202
+00:07:40,740 --> 00:07:47,160
+happier customers and ultimately more
+
+203
+00:07:43,860 --> 00:07:48,960
+sales so the next AI tool will be useful
+
+204
+00:07:47,160 --> 00:07:51,419
+for just about anyone and have the
+
+205
+00:07:48,960 --> 00:07:53,039
+potential to save tons of time now have
+
+206
+00:07:51,419 --> 00:07:55,440
+you ever read through a seemingly
+
+207
+00:07:53,039 --> 00:07:57,060
+endless contract or some other lengthy
+
+208
+00:07:55,440 --> 00:07:59,099
+document now maybe you have to do some
+
+209
+00:07:57,060 --> 00:08:01,259
+reading for a class or maybe you need to
+
+210
+00:07:59,099 --> 00:08:03,000
+read some other brief or report for work
+
+211
+00:08:01,259 --> 00:08:04,800
+well well if you've ever been in a
+
+212
+00:08:03,000 --> 00:08:07,440
+situation where you have to read a long
+
+213
+00:08:04,800 --> 00:08:09,479
+document then doc you ask can save you a
+
+214
+00:08:07,440 --> 00:08:11,280
+ton of time because with Doc you ask you
+
+215
+00:08:09,479 --> 00:08:13,440
+no longer need to read those long
+
+216
+00:08:11,280 --> 00:08:16,199
+arduous documents you see there are
+
+217
+00:08:13,440 --> 00:08:18,479
+plenty of tools that summarize text chat
+
+218
+00:08:16,199 --> 00:08:20,340
+gbt can even do that but the issue with
+
+219
+00:08:18,479 --> 00:08:22,259
+the summaries is that they're only that
+
+220
+00:08:20,340 --> 00:08:25,139
+summaries that means that you will
+
+221
+00:08:22,259 --> 00:08:27,240
+inevitably miss important fine details
+
+222
+00:08:25,139 --> 00:08:28,800
+but if you know what to look for well
+
+223
+00:08:27,240 --> 00:08:32,039
+then you can use a doc you ask because
+
+224
+00:08:28,800 --> 00:08:34,380
+docu ask takes any document and analyzes
+
+225
+00:08:32,039 --> 00:08:36,419
+it so you can simply ask questions about
+
+226
+00:08:34,380 --> 00:08:38,459
+it in a chat box listen here's the thing
+
+227
+00:08:36,419 --> 00:08:40,979
+extracting information from documents
+
+228
+00:08:38,459 --> 00:08:42,719
+literally could not be easier so you no
+
+229
+00:08:40,979 --> 00:08:45,120
+longer need to spend hours and hours
+
+230
+00:08:42,719 --> 00:08:48,420
+scouring through documents you can
+
+231
+00:08:45,120 --> 00:08:50,220
+simply use AI now the next AI is one
+
+232
+00:08:48,420 --> 00:08:54,060
+that I've mentioned in a previous video
+
+233
+00:08:50,220 --> 00:08:55,920
+but it may just be the most useful AI on
+
+234
+00:08:54,060 --> 00:08:58,560
+this list and that's Microsoft's
+
+235
+00:08:55,920 --> 00:09:00,779
+co-pilot copilot directly complements
+
+236
+00:08:58,560 --> 00:09:02,399
+Microsoft's entire Suite of products
+
+237
+00:09:00,779 --> 00:09:04,980
+that means it's a able to do everything
+
+238
+00:09:02,399 --> 00:09:07,260
+from analyzing Excel spreadsheets to
+
+239
+00:09:04,980 --> 00:09:09,360
+making full-blown PowerPoints I mean
+
+240
+00:09:07,260 --> 00:09:11,640
+copilot can even transcribe notes during
+
+241
+00:09:09,360 --> 00:09:13,800
+a Microsoft team meeting and provide you
+
+242
+00:09:11,640 --> 00:09:16,320
+with a summary of the key points and
+
+243
+00:09:13,800 --> 00:09:18,600
+action items and even execute on the
+
+244
+00:09:16,320 --> 00:09:20,420
+actions itself so let's say one of those
+
+245
+00:09:18,600 --> 00:09:23,100
+action items was to make a presentation
+
+246
+00:09:20,420 --> 00:09:25,620
+copilot is able to create a tailor-made
+
+247
+00:09:23,100 --> 00:09:27,600
+presentation to your desired branding
+
+248
+00:09:25,620 --> 00:09:29,220
+guidelines I mean we've all made a
+
+249
+00:09:27,600 --> 00:09:31,459
+PowerPoint presentation before that
+
+250
+00:09:29,220 --> 00:09:33,959
+alone could literally save you hours
+
+251
+00:09:31,459 --> 00:09:36,180
+copilot also knows your calendar and
+
+252
+00:09:33,959 --> 00:09:38,220
+therefore can prepare you for upcoming
+
+253
+00:09:36,180 --> 00:09:40,320
+meetings it can even generate reports
+
+254
+00:09:38,220 --> 00:09:42,959
+and other word documents based on
+
+255
+00:09:40,320 --> 00:09:44,580
+previous work and of course it can also
+
+256
+00:09:42,959 --> 00:09:47,100
+reply to all of your emails for you
+
+257
+00:09:44,580 --> 00:09:49,620
+copilot is one of the best examples of
+
+258
+00:09:47,100 --> 00:09:52,380
+AI making your workflow more seamless
+
+259
+00:09:49,620 --> 00:09:54,480
+and more efficient it's an AI tool that
+
+260
+00:09:52,380 --> 00:09:56,880
+anyone can take advantage of regardless
+
+261
+00:09:54,480 --> 00:09:58,920
+of their occupation and especially if
+
+262
+00:09:56,880 --> 00:10:01,140
+you ever use one of Microsoft's products
+
+263
+00:09:58,920 --> 00:10:02,880
+well then copilot will be useful to you
+
+264
+00:10:01,140 --> 00:10:05,160
+whether you need to make a pitch deck
+
+265
+00:10:02,880 --> 00:10:07,740
+for your clients or analyze last
+
+266
+00:10:05,160 --> 00:10:10,080
+quarter's profitability co-pilot can
+
+267
+00:10:07,740 --> 00:10:12,660
+help the last tool I want to talk about
+
+268
+00:10:10,080 --> 00:10:15,899
+is Adobe Firefly because Adobe Firefly
+
+269
+00:10:12,660 --> 00:10:17,519
+is one of the craziest AI tools yet you
+
+270
+00:10:15,899 --> 00:10:19,740
+see most of the other tools on this list
+
+271
+00:10:17,519 --> 00:10:22,500
+simply save you time or money by doing
+
+272
+00:10:19,740 --> 00:10:24,660
+tasks for you for example 10 web and
+
+273
+00:10:22,500 --> 00:10:26,760
+durable make websites for you tidio
+
+274
+00:10:24,660 --> 00:10:27,959
+answers your customers questions and
+
+275
+00:10:26,760 --> 00:10:30,240
+they basically give you leverage
+
+276
+00:10:27,959 --> 00:10:32,459
+Leverage is really what makes AI so
+
+277
+00:10:30,240 --> 00:10:34,560
+powerful to begin with you see prior to
+
+278
+00:10:32,459 --> 00:10:37,380
+AI you'd have to spend hours on a task
+
+279
+00:10:34,560 --> 00:10:40,620
+or spend money to hire someone to spend
+
+280
+00:10:37,380 --> 00:10:42,360
+hours on that exact task now well now
+
+281
+00:10:40,620 --> 00:10:44,700
+you essentially have an employee for a
+
+282
+00:10:42,360 --> 00:10:46,920
+fraction of the cost but Adobe Firefly
+
+283
+00:10:44,700 --> 00:10:49,019
+doesn't fall under that same
+
+284
+00:10:46,920 --> 00:10:51,540
+umbrella you see Adobe Firefly actually
+
+285
+00:10:49,019 --> 00:10:53,820
+allows you to do things that otherwise
+
+286
+00:10:51,540 --> 00:10:55,920
+would never have been possible and in
+
+287
+00:10:53,820 --> 00:10:58,140
+the process of that this AI is
+
+288
+00:10:55,920 --> 00:11:00,300
+incredibly valuable not only can you
+
+289
+00:10:58,140 --> 00:11:02,339
+make it make your work easier but you
+
+290
+00:11:00,300 --> 00:11:04,500
+can also make it a hundred times better
+
+291
+00:11:02,339 --> 00:11:06,839
+which of course will make you more money
+
+292
+00:11:04,500 --> 00:11:09,000
+so let me explain how it works Firefly
+
+293
+00:11:06,839 --> 00:11:11,220
+is a generative AI powered content
+
+294
+00:11:09,000 --> 00:11:13,079
+creation tool that means it can simply
+
+295
+00:11:11,220 --> 00:11:15,540
+create things so let's look at three
+
+296
+00:11:13,079 --> 00:11:18,060
+examples and how it can help you fire
+
+297
+00:11:15,540 --> 00:11:20,220
+fly can create realistic images from
+
+298
+00:11:18,060 --> 00:11:22,440
+detailed text and this is incredibly
+
+299
+00:11:20,220 --> 00:11:25,200
+useful if you need any sort of product
+
+300
+00:11:22,440 --> 00:11:26,880
+photography or any other scenario where
+
+301
+00:11:25,200 --> 00:11:28,980
+you need to depict something now
+
+302
+00:11:26,880 --> 00:11:31,019
+normally you need a whole team of
+
+303
+00:11:28,980 --> 00:11:33,360
+graphic designers and artists whereas
+
+304
+00:11:31,019 --> 00:11:35,160
+now you can simply ask the AI to do it
+
+305
+00:11:33,360 --> 00:11:37,500
+for you and that means you're able to
+
+306
+00:11:35,160 --> 00:11:39,720
+elevate your work drastically without
+
+307
+00:11:37,500 --> 00:11:41,399
+elevating your costs the second thing is
+
+308
+00:11:39,720 --> 00:11:43,260
+Firefly has something called generative
+
+309
+00:11:41,399 --> 00:11:46,980
+fill and that means that it can either
+
+310
+00:11:43,260 --> 00:11:48,660
+draw in or erase objects in a photo so
+
+311
+00:11:46,980 --> 00:11:51,060
+if you want to wear a different outfit
+
+312
+00:11:48,660 --> 00:11:52,620
+in a certain photo this AI can do that
+
+313
+00:11:51,060 --> 00:11:54,600
+for you it can do things that would
+
+314
+00:11:52,620 --> 00:11:57,240
+otherwise be impossible or would have
+
+315
+00:11:54,600 --> 00:11:59,279
+taken a Photoshop expert to do even then
+
+316
+00:11:57,240 --> 00:12:01,260
+Firefly does in a way that looks
+
+317
+00:11:59,279 --> 00:12:04,320
+completely natural it can also turn your
+
+318
+00:12:01,260 --> 00:12:06,540
+sketches into photorealistic images and
+
+319
+00:12:04,320 --> 00:12:09,120
+so much more so if you work with any
+
+320
+00:12:06,540 --> 00:12:12,480
+sort of content creation Firefly will be
+
+321
+00:12:09,120 --> 00:12:14,760
+a must-have tool both for easy fixes and
+
+322
+00:12:12,480 --> 00:12:16,560
+for exploring completely new ideas and
+
+323
+00:12:14,760 --> 00:12:19,260
+soon Firefly will even be able to
+
+324
+00:12:16,560 --> 00:12:21,720
+generate images from 3D elements now
+
+325
+00:12:19,260 --> 00:12:23,579
+here's the bottom line This AI
+
+326
+00:12:21,720 --> 00:12:25,740
+Revolution we're in is no different from
+
+327
+00:12:23,579 --> 00:12:28,079
+any other technological Revolution and
+
+328
+00:12:25,740 --> 00:12:30,300
+as with any boom there will be an
+
+329
+00:12:28,079 --> 00:12:32,700
+inevitable bust the key here is to be
+
+330
+00:12:30,300 --> 00:12:34,800
+able to discern what's to stay and what
+
+331
+00:12:32,700 --> 00:12:37,200
+isn't and then to capitalize on the
+
+332
+00:12:34,800 --> 00:12:38,760
+trends that are here to stay and now
+
+333
+00:12:37,200 --> 00:12:41,220
+that you have these seven tools to help
+
+334
+00:12:38,760 --> 00:12:43,500
+you make money and save time all you
+
+335
+00:12:41,220 --> 00:12:45,600
+need to do is get to work and as always
+
+336
+00:12:43,500 --> 00:12:48,860
+I'll be watching from afar
+
+337
+00:12:45,600 --> 00:12:48,860
+and I'm rooting for you
+

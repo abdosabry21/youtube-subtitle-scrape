@@ -1,0 +1,1700 @@
+1
+00:00:00,080 --> 00:00:03,120
+tired of speaking maybe don't want to do
+
+2
+00:00:02,240 --> 00:00:05,440
+your own speech
+
+3
+00:00:03,120 --> 00:00:06,879
+well there's an app for that so in this
+
+4
+00:00:05,440 --> 00:00:08,080
+video we're going to be taking a look at
+
+5
+00:00:06,879 --> 00:00:10,400
+how you can take
+
+6
+00:00:08,080 --> 00:00:12,480
+text and convert it to speech also known
+
+7
+00:00:10,400 --> 00:00:12,960
+as text to speech now you're probably
+
+8
+00:00:12,480 --> 00:00:14,880
+wondering
+
+9
+00:00:12,960 --> 00:00:15,920
+why the hell is he wearing this hat well
+
+10
+00:00:14,880 --> 00:00:16,800
+in this case what we're going to be
+
+11
+00:00:15,920 --> 00:00:18,720
+taking a look at
+
+12
+00:00:16,800 --> 00:00:20,800
+is how to convert text from different
+
+13
+00:00:18,720 --> 00:00:22,640
+languages as well as english
+
+14
+00:00:20,800 --> 00:00:24,160
+to be able to generate speech so we'll
+
+15
+00:00:22,640 --> 00:00:24,960
+actually be taking a look at how to
+
+16
+00:00:24,160 --> 00:00:27,599
+convert
+
+17
+00:00:24,960 --> 00:00:29,199
+french to french speech let's take a
+
+18
+00:00:27,599 --> 00:00:30,560
+look in a little bit more detail as to
+
+19
+00:00:29,199 --> 00:00:32,399
+what we're going to be covering so this
+
+20
+00:00:30,560 --> 00:00:34,320
+video is going to be a bit of a crash
+
+21
+00:00:32,399 --> 00:00:35,360
+course on text-to-speech conversion so
+
+22
+00:00:34,320 --> 00:00:37,440
+the first thing that we're going to be
+
+23
+00:00:35,360 --> 00:00:37,840
+doing is converting a simple variable
+
+24
+00:00:37,440 --> 00:00:40,399
+from
+
+25
+00:00:37,840 --> 00:00:41,760
+python into a speech file so we'll
+
+26
+00:00:40,399 --> 00:00:43,040
+output it to mp3
+
+27
+00:00:41,760 --> 00:00:44,960
+we'll then take a look at how you can
+
+28
+00:00:43,040 --> 00:00:46,239
+pre-process text documents so say you've
+
+29
+00:00:44,960 --> 00:00:46,879
+got a bunch of files that you want to
+
+30
+00:00:46,239 --> 00:00:48,480
+convert
+
+31
+00:00:46,879 --> 00:00:50,559
+we'll be able to convert that to speech
+
+32
+00:00:48,480 --> 00:00:52,879
+as well last but not least we'll also
+
+33
+00:00:50,559 --> 00:00:54,399
+take a look at how we can convert using
+
+34
+00:00:52,879 --> 00:00:55,840
+different language models so we'll take
+
+35
+00:00:54,399 --> 00:00:56,480
+a look at all the different languages
+
+36
+00:00:55,840 --> 00:00:58,719
+available
+
+37
+00:00:56,480 --> 00:00:59,600
+and we'll specifically convert using one
+
+38
+00:00:58,719 --> 00:01:01,280
+of those
+
+39
+00:00:59,600 --> 00:01:02,640
+we'll also cover all the setup that you
+
+40
+00:01:01,280 --> 00:01:04,000
+need to go through so in this case we're
+
+41
+00:01:02,640 --> 00:01:05,840
+going to be using watson
+
+42
+00:01:04,000 --> 00:01:07,520
+text to speech so we'll cover all of
+
+43
+00:01:05,840 --> 00:01:08,880
+that as well now in terms of how we're
+
+44
+00:01:07,520 --> 00:01:10,560
+going to be doing it we're going to be
+
+45
+00:01:08,880 --> 00:01:11,600
+working inside of a jupyter notebook so
+
+46
+00:01:10,560 --> 00:01:13,920
+we'll capture all
+
+47
+00:01:11,600 --> 00:01:14,640
+of our content or our corpus using
+
+48
+00:01:13,920 --> 00:01:17,200
+python
+
+49
+00:01:14,640 --> 00:01:19,119
+we'll then send that text to the watson
+
+50
+00:01:17,200 --> 00:01:21,040
+text-to-speech service so that will be
+
+51
+00:01:19,119 --> 00:01:23,200
+allow us to perform that conversion
+
+52
+00:01:21,040 --> 00:01:24,799
+and then from there we'll output that as
+
+53
+00:01:23,200 --> 00:01:26,960
+an audio file so it'll be an
+
+54
+00:01:24,799 --> 00:01:28,240
+mp3 file that will be able to convert
+
+55
+00:01:26,960 --> 00:01:29,360
+you can do it in a bunch of other
+
+56
+00:01:28,240 --> 00:01:32,320
+formats but we'll use
+
+57
+00:01:29,360 --> 00:01:32,960
+mp3 in this case ready to get to it
+
+58
+00:01:32,320 --> 00:01:34,079
+let's do it
+
+59
+00:01:32,960 --> 00:01:36,000
+so the first thing that we're going to
+
+60
+00:01:34,079 --> 00:01:38,320
+do before we start converting our
+
+61
+00:01:36,000 --> 00:01:39,280
+text to speech is lay out our jupyter
+
+62
+00:01:38,320 --> 00:01:40,720
+notebook so there's
+
+63
+00:01:39,280 --> 00:01:42,720
+four key steps that we want to go
+
+64
+00:01:40,720 --> 00:01:43,360
+through inside of our python jupyter
+
+65
+00:01:42,720 --> 00:01:45,680
+notebook
+
+66
+00:01:43,360 --> 00:01:47,520
+those are installing our dependencies
+
+67
+00:01:45,680 --> 00:01:48,560
+setting up our speech to text server so
+
+68
+00:01:47,520 --> 00:01:49,920
+authenticating
+
+69
+00:01:48,560 --> 00:01:52,159
+then we're going to convert a basic
+
+70
+00:01:49,920 --> 00:01:53,840
+model read a file from text
+
+71
+00:01:52,159 --> 00:02:09,840
+and convert that and we're also going to
+
+72
+00:01:53,840 --> 00:02:09,840
+use a new language model
+
+73
+00:02:10,239 --> 00:02:13,760
+all right so we've got the basic layout
+
+74
+00:02:11,840 --> 00:02:14,959
+for our jupiter notebook setup so again
+
+75
+00:02:13,760 --> 00:02:16,319
+as we said we're going to first up
+
+76
+00:02:14,959 --> 00:02:17,360
+install our dependencies then
+
+77
+00:02:16,319 --> 00:02:19,840
+authenticate
+
+78
+00:02:17,360 --> 00:02:21,520
+convert a string read from a file and
+
+79
+00:02:19,840 --> 00:02:23,120
+convert that and then last but not least
+
+80
+00:02:21,520 --> 00:02:23,920
+we're going to convert with a different
+
+81
+00:02:23,120 --> 00:02:25,599
+language model
+
+82
+00:02:23,920 --> 00:02:27,200
+so this allows you to convert with a
+
+83
+00:02:25,599 --> 00:02:28,080
+chinese language model an arabic
+
+84
+00:02:27,200 --> 00:02:29,360
+language model
+
+85
+00:02:28,080 --> 00:02:31,360
+there's a whole heap of different
+
+86
+00:02:29,360 --> 00:02:33,280
+language support so let's go on ahead
+
+87
+00:02:31,360 --> 00:02:35,040
+and first up install our dependencies so
+
+88
+00:02:33,280 --> 00:02:36,879
+in this case there's one key dependency
+
+89
+00:02:35,040 --> 00:02:38,480
+and that's ibm watson
+
+90
+00:02:36,879 --> 00:02:39,920
+now in order to install our dependency
+
+91
+00:02:38,480 --> 00:02:42,319
+we're just going to use the pip install
+
+92
+00:02:39,920 --> 00:02:42,319
+command
+
+93
+00:02:43,040 --> 00:02:46,720
+so that's now done so you can see we've
+
+94
+00:02:44,640 --> 00:02:48,720
+just used an exclamation mark and then
+
+95
+00:02:46,720 --> 00:02:50,080
+we've typed in pip install ibm watson so
+
+96
+00:02:48,720 --> 00:02:52,080
+that's our key dependency
+
+97
+00:02:50,080 --> 00:02:53,760
+now installed now the next thing that we
+
+98
+00:02:52,080 --> 00:02:54,480
+need to do is authenticate so because
+
+99
+00:02:53,760 --> 00:02:56,879
+we're using
+
+100
+00:02:54,480 --> 00:02:59,040
+the watson text to speech service we
+
+101
+00:02:56,879 --> 00:03:00,000
+need to go and set up a text-to-speech
+
+102
+00:02:59,040 --> 00:03:01,760
+service first
+
+103
+00:03:00,000 --> 00:03:04,400
+so in order to do that all we need to do
+
+104
+00:03:01,760 --> 00:03:06,640
+is go to cloud.ibm.org
+
+105
+00:03:04,400 --> 00:03:08,319
+forward slash catalog and then from
+
+106
+00:03:06,640 --> 00:03:10,879
+there all you need to do is hit
+
+107
+00:03:08,319 --> 00:03:11,920
+services so if we zoom in so select
+
+108
+00:03:10,879 --> 00:03:14,319
+services
+
+109
+00:03:11,920 --> 00:03:16,800
+scroll on down to ai slash machine
+
+110
+00:03:14,319 --> 00:03:18,319
+learning and choose that
+
+111
+00:03:16,800 --> 00:03:19,599
+then from here you can see there's a
+
+112
+00:03:18,319 --> 00:03:20,800
+whole bunch of different services the
+
+113
+00:03:19,599 --> 00:03:23,599
+one that we're looking for
+
+114
+00:03:20,800 --> 00:03:25,360
+is text to speech so this one down here
+
+115
+00:03:23,599 --> 00:03:26,560
+so if we select text to speech
+
+116
+00:03:25,360 --> 00:03:27,920
+so you can see from here that we've got
+
+117
+00:03:26,560 --> 00:03:29,840
+a light plan and that's going to give us
+
+118
+00:03:27,920 --> 00:03:30,319
+10 000 characters of conversion per
+
+119
+00:03:29,840 --> 00:03:32,239
+month
+
+120
+00:03:30,319 --> 00:03:33,920
+and it'll be deleted after 30 days of
+
+121
+00:03:32,239 --> 00:03:35,120
+inactivity so in this case when we're
+
+122
+00:03:33,920 --> 00:03:37,599
+just getting started out this is more
+
+123
+00:03:35,120 --> 00:03:40,319
+than enough to to go and convert our
+
+124
+00:03:37,599 --> 00:03:41,680
+text to speech so let's choose that
+
+125
+00:03:40,319 --> 00:03:43,440
+light plane and hit create
+
+126
+00:03:41,680 --> 00:03:44,959
+so our text-to-speech service is now
+
+127
+00:03:43,440 --> 00:03:46,319
+being created you can see it's called
+
+128
+00:03:44,959 --> 00:03:48,879
+text to speech dash
+
+129
+00:03:46,319 --> 00:03:51,360
+wk now what we need from our text to
+
+130
+00:03:48,879 --> 00:03:54,080
+speech service are our api key and
+
+131
+00:03:51,360 --> 00:03:55,920
+our service url so to grab that all we
+
+132
+00:03:54,080 --> 00:03:57,599
+need to do is go to manage and you'll
+
+133
+00:03:55,920 --> 00:03:59,680
+have your api key here
+
+134
+00:03:57,599 --> 00:04:01,040
+and your url here so both of those
+
+135
+00:03:59,680 --> 00:04:03,280
+details are just
+
+136
+00:04:01,040 --> 00:04:04,879
+under the credentials box now what we'll
+
+137
+00:04:03,280 --> 00:04:06,640
+do in order to store those in our
+
+138
+00:04:04,879 --> 00:04:08,640
+jupyter notebook is just create
+
+139
+00:04:06,640 --> 00:04:12,879
+two new variables so we'll create one
+
+140
+00:04:08,640 --> 00:04:14,720
+for our url and one for our api key
+
+141
+00:04:12,879 --> 00:04:16,079
+so now let's go ahead and copy over our
+
+142
+00:04:14,720 --> 00:04:18,959
+url and api key
+
+143
+00:04:16,079 --> 00:04:18,959
+into these variables
+
+144
+00:04:23,680 --> 00:04:27,199
+so those are the core components that
+
+145
+00:04:25,440 --> 00:04:28,639
+we're going to need from our speech to
+
+146
+00:04:27,199 --> 00:04:30,000
+tech service so you can see here that
+
+147
+00:04:28,639 --> 00:04:32,479
+we've got our url
+
+148
+00:04:30,000 --> 00:04:33,600
+and we've also got our api key so those
+
+149
+00:04:32,479 --> 00:04:34,160
+are the core things that we're going to
+
+150
+00:04:33,600 --> 00:04:35,919
+need
+
+151
+00:04:34,160 --> 00:04:37,600
+now what we want to do is actually start
+
+152
+00:04:35,919 --> 00:04:38,960
+authenticating now in order to do that
+
+153
+00:04:37,600 --> 00:04:41,600
+we're going to need to import some
+
+154
+00:04:38,960 --> 00:04:44,479
+dependencies from the ibm watson sdk
+
+155
+00:04:41,600 --> 00:04:44,479
+that we just installed
+
+156
+00:04:49,759 --> 00:04:53,120
+what we've done is we've imported two
+
+157
+00:04:51,360 --> 00:04:54,080
+key dependencies so we've imported the
+
+158
+00:04:53,120 --> 00:04:55,520
+text to speech
+
+159
+00:04:54,080 --> 00:04:57,280
+class so this is going to allow us to
+
+160
+00:04:55,520 --> 00:04:59,520
+work with our text to speech service
+
+161
+00:04:57,280 --> 00:05:00,880
+and we've also imported iam
+
+162
+00:04:59,520 --> 00:05:02,479
+authenticator so that's just going to
+
+163
+00:05:00,880 --> 00:05:03,360
+allow us to authenticate to our text to
+
+164
+00:05:02,479 --> 00:05:04,800
+speech servers
+
+165
+00:05:03,360 --> 00:05:06,880
+now what we want to go and do is
+
+166
+00:05:04,800 --> 00:05:08,720
+actually go and create a new instance of
+
+167
+00:05:06,880 --> 00:05:11,840
+the text to speech class and go and
+
+168
+00:05:08,720 --> 00:05:11,840
+authenticate against it
+
+169
+00:05:26,720 --> 00:05:30,000
+so that's our service now set up now
+
+170
+00:05:28,479 --> 00:05:30,720
+what we've done is three key things so
+
+171
+00:05:30,000 --> 00:05:32,720
+we've gone
+
+172
+00:05:30,720 --> 00:05:35,199
+and imported our authenticator and
+
+173
+00:05:32,720 --> 00:05:37,600
+passed through our api key
+
+174
+00:05:35,199 --> 00:05:39,840
+we've also gone and created a new
+
+175
+00:05:37,600 --> 00:05:41,280
+instance of the text to speech
+
+176
+00:05:39,840 --> 00:05:43,039
+service and pass through our
+
+177
+00:05:41,280 --> 00:05:44,479
+authenticator and then last but not
+
+178
+00:05:43,039 --> 00:05:45,919
+least we've set our service url so
+
+179
+00:05:44,479 --> 00:05:47,199
+that's basically where our server sits
+
+180
+00:05:45,919 --> 00:05:48,800
+in the world wide web
+
+181
+00:05:47,199 --> 00:05:50,240
+so that's really our service done now
+
+182
+00:05:48,800 --> 00:05:52,400
+now what we can actually go and do
+
+183
+00:05:50,240 --> 00:05:53,759
+is go and convert some speech to text so
+
+184
+00:05:52,400 --> 00:05:55,759
+in this case we're going to start off
+
+185
+00:05:53,759 --> 00:05:58,000
+with a basic conversion
+
+186
+00:05:55,759 --> 00:05:58,880
+and what we'll do is we'll just convert
+
+187
+00:05:58,000 --> 00:06:00,560
+hello world
+
+188
+00:05:58,880 --> 00:06:02,800
+now when we go and convert we pass
+
+189
+00:06:00,560 --> 00:06:04,639
+through a string or a body of text
+
+190
+00:06:02,800 --> 00:06:06,160
+and this is going to output a file that
+
+191
+00:06:04,639 --> 00:06:07,360
+we'll then be able to read so when we're
+
+192
+00:06:06,160 --> 00:06:09,039
+going to be outputting
+
+193
+00:06:07,360 --> 00:06:10,479
+our speech what we'll do is we'll just
+
+194
+00:06:09,039 --> 00:06:12,080
+output it to the folder that we've got
+
+195
+00:06:10,479 --> 00:06:14,160
+our jupyter notebook in so you can see
+
+196
+00:06:12,080 --> 00:06:15,840
+here that this is our jupyter notebook
+
+197
+00:06:14,160 --> 00:06:17,680
+and we've also got a text file which
+
+198
+00:06:15,840 --> 00:06:19,440
+we'll convert in a second as well
+
+199
+00:06:17,680 --> 00:06:21,520
+so let's go on ahead and just convert
+
+200
+00:06:19,440 --> 00:06:35,840
+the string hello world first to see how
+
+201
+00:06:21,520 --> 00:06:35,840
+it works
+
+202
+00:06:41,680 --> 00:06:45,000
+so what we've gone and done is we've
+
+203
+00:06:43,360 --> 00:06:47,120
+created a new
+
+204
+00:06:45,000 --> 00:06:49,360
+speech.mp3 file so this means that we're
+
+205
+00:06:47,120 --> 00:06:50,800
+going to use this file object to go and
+
+206
+00:06:49,360 --> 00:06:52,160
+write out our file
+
+207
+00:06:50,800 --> 00:06:54,160
+then we've gone and used our
+
+208
+00:06:52,160 --> 00:06:54,880
+text-to-speech service which we created
+
+209
+00:06:54,160 --> 00:06:57,599
+up here
+
+210
+00:06:54,880 --> 00:06:59,520
+and we've synthesized the words hello
+
+211
+00:06:57,599 --> 00:07:00,800
+world so ideally our speech should come
+
+212
+00:06:59,520 --> 00:07:02,160
+out saying hello world
+
+213
+00:07:00,800 --> 00:07:03,680
+we've also passed through a couple of
+
+214
+00:07:02,160 --> 00:07:05,120
+keyword parameters so in this case we're
+
+215
+00:07:03,680 --> 00:07:06,160
+just saying that we want to output an
+
+216
+00:07:05,120 --> 00:07:08,560
+mp3
+
+217
+00:07:06,160 --> 00:07:10,400
+and we've also chosen the voice that we
+
+218
+00:07:08,560 --> 00:07:12,400
+want to use or the language model
+
+219
+00:07:10,400 --> 00:07:13,919
+so the text-to-speech service has a
+
+220
+00:07:12,400 --> 00:07:14,560
+bunch of different language models i've
+
+221
+00:07:13,919 --> 00:07:17,360
+just used
+
+222
+00:07:14,560 --> 00:07:18,319
+a u.s one and in this case it's a female
+
+223
+00:07:17,360 --> 00:07:20,479
+us voice
+
+224
+00:07:18,319 --> 00:07:21,680
+by the name of allison and then the last
+
+225
+00:07:20,479 --> 00:07:22,880
+thing that we've done is gone and
+
+226
+00:07:21,680 --> 00:07:24,319
+grabbed the result
+
+227
+00:07:22,880 --> 00:07:25,919
+then we've gone and written out that
+
+228
+00:07:24,319 --> 00:07:27,599
+file so if we go and take a look inside
+
+229
+00:07:25,919 --> 00:07:30,319
+of our folder we should have a file
+
+230
+00:07:27,599 --> 00:07:32,000
+called speech.mp3
+
+231
+00:07:30,319 --> 00:07:33,840
+and you can see that we've got a file
+
+232
+00:07:32,000 --> 00:07:35,520
+called speech.mp3
+
+233
+00:07:33,840 --> 00:07:37,599
+now available so what we can do is play
+
+234
+00:07:35,520 --> 00:07:39,199
+that file hello world
+
+235
+00:07:37,599 --> 00:07:41,360
+and you can see that we've now gone and
+
+236
+00:07:39,199 --> 00:07:41,919
+generated our speech so we've gone and
+
+237
+00:07:41,360 --> 00:07:44,080
+taken
+
+238
+00:07:41,919 --> 00:07:46,000
+hello world and we've converted that to
+
+239
+00:07:44,080 --> 00:07:47,520
+output hello world
+
+240
+00:07:46,000 --> 00:07:51,199
+what we can do is we can change this so
+
+241
+00:07:47,520 --> 00:07:54,720
+in this case i might say hello youtube
+
+242
+00:07:51,199 --> 00:07:56,879
+and test that out hello
+
+243
+00:07:54,720 --> 00:07:59,039
+youtube and you can see that we're now
+
+244
+00:07:56,879 --> 00:08:01,520
+able to really really quickly convert
+
+245
+00:07:59,039 --> 00:08:02,240
+our text to speech what happens if we
+
+246
+00:08:01,520 --> 00:08:04,879
+wanted to go
+
+247
+00:08:02,240 --> 00:08:05,680
+and convert a text file for example
+
+248
+00:08:04,879 --> 00:08:07,360
+rather than just
+
+249
+00:08:05,680 --> 00:08:09,199
+inputting a keyword so say we wanted to
+
+250
+00:08:07,360 --> 00:08:10,960
+productionize this and we wanted to pick
+
+251
+00:08:09,199 --> 00:08:11,520
+up text files and convert those in real
+
+252
+00:08:10,960 --> 00:08:13,599
+time
+
+253
+00:08:11,520 --> 00:08:15,360
+well we can do that pretty easily all we
+
+254
+00:08:13,599 --> 00:08:18,240
+need to do is just read in a
+
+255
+00:08:15,360 --> 00:08:18,800
+text file so here i've got a bit of a
+
+256
+00:08:18,240 --> 00:08:20,800
+speech
+
+257
+00:08:18,800 --> 00:08:22,560
+from winston churchill now what we can
+
+258
+00:08:20,800 --> 00:08:22,960
+do is actually go and read in this text
+
+259
+00:08:22,560 --> 00:08:26,240
+file
+
+260
+00:08:22,960 --> 00:08:27,440
+and convert that
+
+261
+00:08:26,240 --> 00:08:29,520
+so we're going to follow a similar
+
+262
+00:08:27,440 --> 00:08:30,800
+manner to what we just did here the only
+
+263
+00:08:29,520 --> 00:08:40,320
+difference is that we're first going to
+
+264
+00:08:30,800 --> 00:08:42,560
+read up our text file
+
+265
+00:08:40,320 --> 00:08:45,040
+okay so we've now gone and read in our
+
+266
+00:08:42,560 --> 00:08:47,120
+text files so if we take a look
+
+267
+00:08:45,040 --> 00:08:48,320
+you can see that this is all the text
+
+268
+00:08:47,120 --> 00:08:50,720
+that we had within
+
+269
+00:08:48,320 --> 00:08:52,720
+our document so in this case what we did
+
+270
+00:08:50,720 --> 00:08:54,160
+is we opened up our file and then we
+
+271
+00:08:52,720 --> 00:08:56,160
+just read the lines from that
+
+272
+00:08:54,160 --> 00:08:58,640
+now you can see that we've got a slash
+
+273
+00:08:56,160 --> 00:09:01,120
+enter a new line indicator on each one
+
+274
+00:08:58,640 --> 00:09:03,200
+of these different lines what we want to
+
+275
+00:09:01,120 --> 00:09:04,160
+do whenever we pass our text to the text
+
+276
+00:09:03,200 --> 00:09:06,480
+to speech service
+
+277
+00:09:04,160 --> 00:09:07,519
+you have one single block of text so
+
+278
+00:09:06,480 --> 00:09:08,959
+what we'll do is a little bit of
+
+279
+00:09:07,519 --> 00:09:11,519
+pre-processing so to convert
+
+280
+00:09:08,959 --> 00:09:23,760
+this entire array and number of strings
+
+281
+00:09:11,519 --> 00:09:25,200
+to one single block of text
+
+282
+00:09:23,760 --> 00:09:26,720
+so what we've gone and done is replace
+
+283
+00:09:25,200 --> 00:09:28,399
+that new line indicator with a blank
+
+284
+00:09:26,720 --> 00:09:30,480
+space so that's just going to strip that
+
+285
+00:09:28,399 --> 00:09:32,000
+out and then we've gone and concatenated
+
+286
+00:09:30,480 --> 00:09:33,760
+all of them together so what we've done
+
+287
+00:09:32,000 --> 00:09:35,040
+is we've used a list comprehension so
+
+288
+00:09:33,760 --> 00:09:36,560
+four line in text
+
+289
+00:09:35,040 --> 00:09:38,160
+to allow us to loop through each one of
+
+290
+00:09:36,560 --> 00:09:41,279
+those and then ideally
+
+291
+00:09:38,160 --> 00:09:43,360
+what we should get out is a single
+
+292
+00:09:41,279 --> 00:09:44,720
+block of text which you can see here now
+
+293
+00:09:43,360 --> 00:09:46,640
+what we can do is follow
+
+294
+00:09:44,720 --> 00:09:49,600
+a similar process to what we did up here
+
+295
+00:09:46,640 --> 00:09:51,120
+so we can just copy this block
+
+296
+00:09:49,600 --> 00:09:52,640
+now what we're going to do is rather
+
+297
+00:09:51,120 --> 00:09:54,240
+than having hello youtube
+
+298
+00:09:52,640 --> 00:09:56,080
+all we need to do is pass through this
+
+299
+00:09:54,240 --> 00:09:58,160
+text block here so let's go and replace
+
+300
+00:09:56,080 --> 00:09:59,839
+that
+
+301
+00:09:58,160 --> 00:10:02,000
+and we're going to call this file
+
+302
+00:09:59,839 --> 00:10:03,760
+churchill instead
+
+303
+00:10:02,000 --> 00:10:06,000
+so ideally what we should now have is
+
+304
+00:10:03,760 --> 00:10:08,079
+another file which is just exported
+
+305
+00:10:06,000 --> 00:10:09,519
+called churchill.mp3
+
+306
+00:10:08,079 --> 00:10:11,360
+now this might take a little bit longer
+
+307
+00:10:09,519 --> 00:10:12,480
+because again our text is longer now so
+
+308
+00:10:11,360 --> 00:10:14,160
+it's going to have to convert
+
+309
+00:10:12,480 --> 00:10:15,839
+a whole lot more but again it shouldn't
+
+310
+00:10:14,160 --> 00:10:17,519
+take too long perfect so that looks like
+
+311
+00:10:15,839 --> 00:10:18,480
+it's completed now if we go and take a
+
+312
+00:10:17,519 --> 00:10:21,279
+look we
+
+313
+00:10:18,480 --> 00:10:22,959
+indeed do have a churchill.mp3 file so
+
+314
+00:10:21,279 --> 00:10:23,279
+we can play that we shall go on to the
+
+315
+00:10:22,959 --> 00:10:25,440
+end
+
+316
+00:10:23,279 --> 00:10:26,800
+we shall fight in france we shall fight
+
+317
+00:10:25,440 --> 00:10:28,720
+on the seas and oceans
+
+318
+00:10:26,800 --> 00:10:29,839
+we shall perfect you get the idea so
+
+319
+00:10:28,720 --> 00:10:32,000
+we've gone and now
+
+320
+00:10:29,839 --> 00:10:33,920
+read in a text file and converted that
+
+321
+00:10:32,000 --> 00:10:35,600
+to mp3 so now the last thing that we
+
+322
+00:10:33,920 --> 00:10:37,200
+want to take a look at is using a
+
+323
+00:10:35,600 --> 00:10:38,560
+different language model so rather than
+
+324
+00:10:37,200 --> 00:10:40,320
+just converting to english
+
+325
+00:10:38,560 --> 00:10:42,959
+what happens if we wanted to convert in
+
+326
+00:10:40,320 --> 00:10:44,399
+chinese or dutch or arabic or one of the
+
+327
+00:10:42,959 --> 00:10:46,240
+other amazing languages
+
+328
+00:10:44,399 --> 00:10:47,519
+that the entire world uses well the
+
+329
+00:10:46,240 --> 00:10:49,120
+great thing about our text-to-speech
+
+330
+00:10:47,519 --> 00:10:50,000
+service is that it supports a number of
+
+331
+00:10:49,120 --> 00:10:51,360
+different languages
+
+332
+00:10:50,000 --> 00:10:53,200
+so if we actually go to the
+
+333
+00:10:51,360 --> 00:10:54,160
+documentation you can actually see that
+
+334
+00:10:53,200 --> 00:10:55,600
+there are a
+
+335
+00:10:54,160 --> 00:11:00,720
+whole heap of different languages
+
+336
+00:10:55,600 --> 00:11:00,720
+supported so we've got brazilian
+
+337
+00:11:00,800 --> 00:11:04,160
+mandarin dutch a whole bunch of
+
+338
+00:11:03,360 --> 00:11:06,240
+different others
+
+339
+00:11:04,160 --> 00:11:07,200
+now what we're going to do in this case
+
+340
+00:11:06,240 --> 00:11:09,920
+is convert
+
+341
+00:11:07,200 --> 00:11:10,880
+using french because i'm a bit of a
+
+342
+00:11:09,920 --> 00:11:13,200
+frenchie
+
+343
+00:11:10,880 --> 00:11:14,480
+now let's go and do that so rather than
+
+344
+00:11:13,200 --> 00:11:15,839
+the core thing that we need to do
+
+345
+00:11:14,480 --> 00:11:17,279
+whenever we're converting in a different
+
+346
+00:11:15,839 --> 00:11:18,399
+language is just pass through the
+
+347
+00:11:17,279 --> 00:11:19,839
+different voice
+
+348
+00:11:18,399 --> 00:11:22,399
+so if we take a look at our different
+
+349
+00:11:19,839 --> 00:11:24,000
+voices you can see in french we've got a
+
+350
+00:11:22,399 --> 00:11:26,240
+few different ones there
+
+351
+00:11:24,000 --> 00:11:29,519
+so what we'll do is convert using this
+
+352
+00:11:26,240 --> 00:11:31,920
+one down here so renee v3
+
+353
+00:11:29,519 --> 00:11:33,600
+and we'll just create a new variable and
+
+354
+00:11:31,920 --> 00:11:35,440
+then all we need to do is again
+
+355
+00:11:33,600 --> 00:11:37,519
+grab our text block so i've got a
+
+356
+00:11:35,440 --> 00:11:39,760
+lullaby that my grandma actually used to
+
+357
+00:11:37,519 --> 00:11:41,200
+sing to me so it's called freya jacka
+
+358
+00:11:39,760 --> 00:11:44,399
+i'm probably butchering that
+
+359
+00:11:41,200 --> 00:11:45,920
+of jacques so let's go and paste that in
+
+360
+00:11:44,399 --> 00:11:48,880
+so in this case all we need to do is
+
+361
+00:11:45,920 --> 00:11:50,639
+copy our conversion block
+
+362
+00:11:48,880 --> 00:11:52,160
+paste that in and this time we need to
+
+363
+00:11:50,639 --> 00:11:52,480
+replace two things so we're just going
+
+364
+00:11:52,160 --> 00:11:54,320
+to
+
+365
+00:11:52,480 --> 00:11:55,839
+because our text is contained in a
+
+366
+00:11:54,320 --> 00:11:58,480
+variable called freya
+
+367
+00:11:55,839 --> 00:11:59,279
+we're just going to grab that offrair
+
+368
+00:11:58,480 --> 00:12:02,399
+and replace
+
+369
+00:11:59,279 --> 00:12:03,760
+the text here we'll call this french
+
+370
+00:12:02,399 --> 00:12:04,880
+conversion
+
+371
+00:12:03,760 --> 00:12:06,399
+and the last thing that we're going to
+
+372
+00:12:04,880 --> 00:12:08,000
+do is change our voice because that's
+
+373
+00:12:06,399 --> 00:12:09,200
+the core thing that we need to change
+
+374
+00:12:08,000 --> 00:12:11,120
+whenever we want to use a different
+
+375
+00:12:09,200 --> 00:12:12,639
+language model because we've got our
+
+376
+00:12:11,120 --> 00:12:13,600
+voice contained in a variable here we
+
+377
+00:12:12,639 --> 00:12:17,120
+can just copy that
+
+378
+00:12:13,600 --> 00:12:19,040
+and just set this to this variable
+
+379
+00:12:17,120 --> 00:12:21,360
+that's now done so if we go and take a
+
+380
+00:12:19,040 --> 00:12:25,839
+look we've got a french conversion
+
+381
+00:12:21,360 --> 00:12:25,839
+block as well
+
+382
+00:12:26,399 --> 00:12:28,800
+and you can see we've now gone and
+
+383
+00:12:27,519 --> 00:12:30,320
+converted now you can see that that's a
+
+384
+00:12:28,800 --> 00:12:32,240
+little bit fast and that's because we
+
+385
+00:12:30,320 --> 00:12:33,519
+don't actually have full stops here
+
+386
+00:12:32,240 --> 00:12:35,440
+and that's because it's going to read it
+
+387
+00:12:33,519 --> 00:12:37,200
+so it can ideally convert our text to
+
+388
+00:12:35,440 --> 00:12:38,959
+speech exactly as it's written so if we
+
+389
+00:12:37,200 --> 00:12:40,320
+actually add full stops here
+
+390
+00:12:38,959 --> 00:12:42,240
+you can see that we're going to get a
+
+391
+00:12:40,320 --> 00:12:44,800
+bit more of a pause between each one of
+
+392
+00:12:42,240 --> 00:12:46,720
+these sentences
+
+393
+00:12:44,800 --> 00:12:48,480
+so that's now converted now if we go and
+
+394
+00:12:46,720 --> 00:12:53,839
+take a look at that
+
+395
+00:12:48,480 --> 00:12:53,839
+freya foreign
+
+396
+00:13:00,240 --> 00:13:03,519
+so you can see there's a little bit more
+
+397
+00:13:01,680 --> 00:13:05,680
+of a pause between each one of those
+
+398
+00:13:03,519 --> 00:13:07,279
+sentences now so it's replicating how we
+
+399
+00:13:05,680 --> 00:13:09,200
+speak
+
+400
+00:13:07,279 --> 00:13:11,200
+that about wraps up how to convert text
+
+401
+00:13:09,200 --> 00:13:13,040
+to speech in a nutshell so just
+
+402
+00:13:11,200 --> 00:13:14,800
+recap so what we've done is we've gone
+
+403
+00:13:13,040 --> 00:13:17,120
+and imported out or installed our
+
+404
+00:13:14,800 --> 00:13:18,720
+dependencies so we installed ibm watson
+
+405
+00:13:17,120 --> 00:13:20,240
+we then authenticated against our
+
+406
+00:13:18,720 --> 00:13:22,800
+service converted
+
+407
+00:13:20,240 --> 00:13:23,440
+a string converted a file and last but
+
+408
+00:13:22,800 --> 00:13:25,360
+not least
+
+409
+00:13:23,440 --> 00:13:27,440
+we used a new language model but again
+
+410
+00:13:25,360 --> 00:13:28,720
+keep in mind there's a whole heap of
+
+411
+00:13:27,440 --> 00:13:30,240
+different language models
+
+412
+00:13:28,720 --> 00:13:31,839
+if you want to get started thanks so
+
+413
+00:13:30,240 --> 00:13:33,600
+much for tuning in guys hopefully you
+
+414
+00:13:31,839 --> 00:13:35,120
+found this video useful if you did be
+
+415
+00:13:33,600 --> 00:13:36,720
+sure to give it a thumbs up hit
+
+416
+00:13:35,120 --> 00:13:38,639
+subscribe and tick that bell so you get
+
+417
+00:13:36,720 --> 00:13:40,399
+notified of any future videos
+
+418
+00:13:38,639 --> 00:13:42,160
+let me know what text you were able to
+
+419
+00:13:40,399 --> 00:13:43,680
+convert in the mentions below and let me
+
+420
+00:13:42,160 --> 00:13:45,600
+know if this video helped you
+
+421
+00:13:43,680 --> 00:13:47,040
+again if you've got any questions at all
+
+422
+00:13:45,600 --> 00:13:48,079
+be sure to drop a mention in the
+
+423
+00:13:47,040 --> 00:13:49,680
+comments and i'll get
+
+424
+00:13:48,079 --> 00:13:58,639
+right back to you thanks again for
+
+425
+00:13:49,680 --> 00:13:58,639
+tuning in peace
+
